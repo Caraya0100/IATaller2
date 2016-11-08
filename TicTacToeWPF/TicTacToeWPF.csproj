@@ -53,6 +53,8 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="Computador2.cs" />
+    <Compile Include="RRandom.cs" />
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
@@ -62,8 +64,10 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="ArtificialIntelligence.cs" />
+    <Compile Include="Computador.cs" />
     <Compile Include="Constants.cs" />
     <Compile Include="GameStatus.cs" />
+    <Compile Include="Jugada.cs" />
     <Compile Include="MainWindow.xaml.cs">
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>

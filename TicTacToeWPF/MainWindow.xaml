@@ -30,9 +30,8 @@
             <Image Grid.Column="0" Grid.Row="0" Source="restart_icon.png" Stretch="Fill"/>
         </Button>
         <ComboBox Name="gameModeComboBox" Grid.Column="1" Grid.Row="0" Width="80" VerticalAlignment="Center" SelectionChanged="gameModeComboBox_Click" SelectedIndex="0">
-            <ComboBoxItem>Hot Seat</ComboBoxItem>
-            <ComboBoxItem>AI Easy</ComboBoxItem>
-            <ComboBoxItem>AI Hard</ComboBoxItem>
+            <ComboBoxItem>Jugador</ComboBoxItem>
+            <ComboBoxItem>Computador</ComboBoxItem>
         </ComboBox>
         <Button Name="aboutButton" Grid.Column="2" Grid.Row="0" Width="36" Height="36" Click="aboutButton_Click" Style="{StaticResource menuButtonStyle}" >
             <Image Grid.Column="2" Grid.Row="0" Source="about_icon.png" Stretch="Fill"/>
